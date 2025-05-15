@@ -1,0 +1,44 @@
+{
+  "name": "@pizzaton/dotton",
+  "version": "0.1.0",
+  "description": "dotTON platform integration SDK for developers to interact with dotTON API and on-chain assets",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "dotton",
+    "ton",
+    "blockchain",
+    "sdk",
+    "api"
+  ],
+  "author": "PizzaTON",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pizzaton/dotton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pizzaton/dotton/issues"
+  },
+  "homepage": "https://github.com/pizzaton/dotton#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.15.18",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.9.0"
+  }
+}
